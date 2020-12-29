@@ -818,7 +818,8 @@ class ContainerApiMixin(object):
                 ``all``. Default ``all``
             since (datetime or int): Show logs since a given datetime or
                 integer epoch (in seconds)
-            follow (bool): Follow log output. Default ``False``
+            follow (bool): Follow log output. Default ``stream`` parameter 
+                value
             until (datetime or int): Show logs that occurred before the given
                 datetime or integer epoch (in seconds)
 
